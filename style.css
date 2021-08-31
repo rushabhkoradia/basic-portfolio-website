@@ -1,0 +1,96 @@
+/* *{
+  box-sizing: border-box;
+} */
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* position: fixed; */
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.logo img{
+  height: 50px;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li a{
+  height: 40px;
+  line-height: 43px;
+  padding: 0px 25px;
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+a{
+  text-decoration: none;
+}
+
+.hi{
+  color: #39bfbd;
+  font-weight: 500;
+  border-bottom: 2px solid #39bfbd;
+}
+
+.my-img{
+  margin-top: 40px;
+}
+
+.my-img img{
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.content{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-main{
+  width: 500px;
+}
+
+.text-main h1{
+  font-size: 60px;
+  color: #1c3548;
+  margin: 0px 0px 10px 0px;
+}
+
+.text-main p{
+  color: grey;
+}
+
+.resume-btn {
+  background-color: #23cdaf;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 40px;
+}
+
+.btn-resume:hover{
+  background-color: #23cdaf;
+}
+
+.menu li a:hover{
+  background-color: #23cdaf;
+  color: white;
+}
