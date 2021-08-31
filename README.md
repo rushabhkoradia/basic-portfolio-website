@@ -1,7 +1,7 @@
 # Basic Web Devlopment Project
 Hi I made this project using pure <b><i>HTML & CSS</i></b>.
 
-You can check out the output <a href="https://rushabhkoradia.github.io/basic-portfolio-website/" target="blank">here</a>.
+You can check out the output <a href="https://rushabhkoradia.github.io/basic-portfolio-website/">HERE</a>.
 
 <p>You can follow me on:</p>
 <ul>
